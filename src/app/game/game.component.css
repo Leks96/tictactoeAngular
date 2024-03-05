@@ -1,0 +1,87 @@
+/* ~ Game Header & Intro Elements ~ */
+/* Webpage's main header */
+#game-header {
+    font-weight: 900;
+    text-align: center;
+    margin: 15px 0;
+    color: rgb(3, 27, 59);
+  }
+  
+  /* "Game Instructions" container */
+  #game-info-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Game Instructions */
+  #game-info-container p {
+    color: rgb(3, 27, 59);
+  }
+  
+  /* "Start Game" button container */
+  #button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* ~ Overall "Gameboard" ~ */
+  /* "Gamefield" container */
+  #gameboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-top: 4em;
+    padding: 0;
+  }
+  
+  /* "Players" container */
+  .players {
+    align-self: center;
+  }
+  
+  /* "Players" Specific Styling */
+  #player-one {
+    color: #123d50;
+    margin-left: 2em;
+  }
+  
+  #player-two {
+    color: #f38b1c;
+    margin-right: 2em;
+  }
+  
+  /* "Players" representations */
+  .players p {
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  
+  /* ~ Playable "Gameboard" ~ */
+  /* Playable Game Field */
+  #gamefield {
+    max-width: 300px;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  /* Clickable Boxes of Game Field */
+  #gamefield .subfield {
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+  }
+  
+  /* Game Field Occupiers (colors instead of X & O) */
+  .player-one {
+    color: #123d50;
+    background: #123d50;
+  }
+  
+  .player-two {
+    color: #f38b1c;
+    background: #f38b1c;
+  }
